@@ -13,6 +13,8 @@ inputs:
 outputs:
   time: # id of output
     description: 'The time we greeted you'
+  username: # id of output
+    description: 'The username'
 runs:
   using: 'docker'
   image: 'Dockerfile'
