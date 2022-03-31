@@ -19,6 +19,5 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.username }}
-    - ${{ inputs.password }}
+    - ${{ inputs.username }} ${{ inputs.password }}
 
