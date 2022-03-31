@@ -13,7 +13,7 @@ jobs:
           password: 'abc123'
       # Use the output from the `hello` step
       - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+        run: echo "The time is ${{ steps.hello.outputs.time }}"
       - name: Show Secret
         run: echo "The username output ${{ steps.hello.outputs.username }}"
 
