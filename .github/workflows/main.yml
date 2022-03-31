@@ -9,7 +9,7 @@ jobs:
         id: hello
         uses: nicmar/docker-deploy@main
         with:
-          username: 'Nicky'
+          username: 'Nickys'
           password: 'abc123'
       # Use the output from the `hello` step
       - name: Get the output time
